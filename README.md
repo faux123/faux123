@@ -14,7 +14,7 @@ Built from upstream Mesa and packaged for AdrenoTools. Import the `.adpkg.zip` f
 | [panvk-faux123-driver-rg556](https://github.com/faux123/panvk-faux123-driver-rg556) | Mali-G57 | Anbernic RG556 |
 | [panvk-faux123-driver-pixel7](https://github.com/faux123/panvk-faux123-driver-pixel7) | Mali-G710 | Google Pixel 7 |
 
-The four PanVK drivers ship one universal Mali driver since v1.0.0: the same library is in all four packages.
+Since v1.0.0 the four PanVK repositories ship one universal Mali driver with one name: the same file, `panvk_faux123_<version>.adpkg.zip`, in all four.
 
 Every driver and the graphics chips it runs on: [canonspike.com/drivers](https://canonspike.com/drivers/).
 
