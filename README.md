@@ -8,7 +8,7 @@ Built from upstream Mesa and packaged for AdrenoTools. Import the `.adpkg.zip` f
 
 | Driver | GPU | Tested on |
 |---|---|---|
-| [turnip-faux123-driver](https://github.com/faux123/turnip-faux123-driver) | Adreno 8xx | AYN Odin 3 (Adreno 830) |
+| [turnip-faux123-driver](https://github.com/faux123/turnip-faux123-driver) | Adreno 6xx, 7xx, 8xx | AYN Odin 3 (830), Retroid Pocket Duo (722), Galaxy S23 (740), S22 (730), S21+ (660), S20+ (650), S10 (640) |
 | [panvk-faux123-driver-ace](https://github.com/faux123/panvk-faux123-driver-ace) | Mali-G610 | GameForce Ace |
 | [panvk-faux123-driver-rp4pro](https://github.com/faux123/panvk-faux123-driver-rp4pro) | Mali-G77 | Retroid Pocket 4 Pro |
 | [panvk-faux123-driver-rg556](https://github.com/faux123/panvk-faux123-driver-rg556) | Mali-G57 | Anbernic RG556 |
