@@ -9,10 +9,13 @@ Built from upstream Mesa and packaged for AdrenoTools. Import the `.adpkg.zip` f
 | Driver | GPU | Tested on |
 |---|---|---|
 | [turnip-faux123-driver](https://github.com/faux123/turnip-faux123-driver) | Adreno 6xx, 7xx, 8xx | AYN Odin 3 (830), Retroid Pocket Duo (722), Galaxy S23 (740), S22 (730), S21+ (660), S20+ (650), S10 (640) |
+| [turnip-faux123-droiddeck](https://github.com/faux123/turnip-faux123-droiddeck) | Adreno 6xx, 7xx, 8xx, for [DroidDeck](https://github.com/Droid-Deck/DroidDeck) | AYN Odin 3 (830) |
 | [panvk-faux123-driver-ace](https://github.com/faux123/panvk-faux123-driver-ace) | Mali-G610 | GameForce Ace |
 | [panvk-faux123-driver-rp4pro](https://github.com/faux123/panvk-faux123-driver-rp4pro) | Mali-G77 | Retroid Pocket 4 Pro |
 | [panvk-faux123-driver-rg556](https://github.com/faux123/panvk-faux123-driver-rg556) | Mali-G57 | Anbernic RG556 |
 | [panvk-faux123-driver-pixel7](https://github.com/faux123/panvk-faux123-driver-pixel7) | Mali-G710 | Google Pixel 7 |
+
+The DroidDeck repository holds the same Turnip as a two-driver bundle (Android display driver plus Linux runtime driver) that DroidDeck imports in one step.
 
 Since v1.0.0 the four PanVK repositories ship one universal Mali driver with one name: the same file, `panvk_faux123_<version>.adpkg.zip`, in all four.
 
